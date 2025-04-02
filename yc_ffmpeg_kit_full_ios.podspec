@@ -15,17 +15,17 @@ Pod::Spec.new do |s|
 
   s.libraries = ["z", "bz2", "c++", "iconv"]
 
-  s.source = { :git => "https://github.com/yangchanglol/yc_ffmpeg_kit_full_ios.git" }
+  s.source = { :git => "https://github.com/yangchanglol/yc_ffmpeg_kit_full_ios.git", :tag => "6.0" }
 
   s.ios.frameworks = ["AudioToolbox", "AVFoundation", "CoreMedia", "VideoToolbox"]
   s.ios.vendored_frameworks = [
-    "ffmpegkit.xcframework",
-    "libavcodec.xcframework",
-    "libavdevice.xcframework",
-    "libavfilter.xcframework",
-    "libavformat.xcframework",
-    "libavutil.xcframework",
-    "libswresample.xcframework",
-    "libswscale.xcframework"
+    "Frameworks/ffmpegkit.xcframework",
+    "Frameworks/libavcodec.xcframework",
+    "Frameworks/libavdevice.xcframework",
+    "Frameworks/libavfilter.xcframework",
+    "Frameworks/libavformat.xcframework",
+    "Frameworks/libavutil.xcframework",
+    "Frameworks/libswresample.xcframework",
+    "Frameworks/libswscale.xcframework"
   ]
 end
