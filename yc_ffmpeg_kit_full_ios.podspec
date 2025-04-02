@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
     libtheora, libvorbis, libvpx, libwebp, zimg, libxml2, opencore-amr, opus, shine, snappy, soxr, speex, 
     twolame and vo-amrwbenc libraries enabled.
   DESC
-  s.homepage     = "https://github.com/arthenica/ffmpeg-kit"
+  s.homepage     = "https://github.com/yangchanglol/yc_ffmpeg_kit_full_ios"
   s.license      = { :type => "LGPL-3.0", :file => "ffmpegkit.xcframework/ios-arm64/ffmpegkit.framework/LICENSE" }
-  s.authors      = { "ARTHENICA" => "open-source@arthenica.com" }
+  s.authors      = { "ARTHENICA" => "yangchanglol@126.com" }
   s.platform     = :ios, "12.1"
   s.requires_arc = true
 
