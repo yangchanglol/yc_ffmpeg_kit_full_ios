@@ -1,5 +1,5 @@
 {
-  "name": "ffmpeg-kit-ios-full",
+  "name": "yc_ffmpeg_kit_full_ios",
   "version": "6.0",
   "summary": "FFmpeg Kit iOS Full Shared Framework",
   "description": "Includes FFmpeg with dav1d, fontconfig, freetype, fribidi, gmp, gnutls, kvazaar, lame, libass, libilbc, libtheora, libvorbis, libvpx, libwebp, zimg, libxml2, opencore-amr, opus, shine, snappy, soxr, speex, twolame and vo-amrwbenc libraries enabled.",
