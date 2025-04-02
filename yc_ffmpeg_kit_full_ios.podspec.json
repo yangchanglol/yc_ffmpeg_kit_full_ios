@@ -22,7 +22,7 @@
     "iconv"
   ],
   "source": {
-    "http": "https://www.wity.jp/ffmpegkit/v6.0/ffmpeg-kit-full-6.0-ios-xcframework.zip"
+    "http": "https://github.com/yangchanglol/yc_ffmpeg_kit_full_ios.git"
   },
   "ios": {
     "frameworks": [
