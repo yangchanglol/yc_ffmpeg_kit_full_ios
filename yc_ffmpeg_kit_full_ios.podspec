@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "yc_ffmpeg_kit_full_ios"
-  s.version      = "6.1"
+  s.version      = "6.2"
   s.summary      = "FFmpeg Kit iOS Full Shared Framework"
   s.description  = <<-DESC
     Includes FFmpeg with dav1d, fontconfig, freetype, fribidi, gmp, gnutls, kvazaar, lame, libass, libilbc, 
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.libraries = ["z", "bz2", "c++", "iconv"]
 
-  s.source = { :git => "https://github.com/yangchanglol/yc_ffmpeg_kit_full_ios.git", :tag => "6.1" }
+  s.source = { :git => "https://github.com/yangchanglol/yc_ffmpeg_kit_full_ios.git", :tag => "6.2" }
 
   s.ios.frameworks = ["AudioToolbox", "AVFoundation", "CoreMedia", "VideoToolbox"]
   s.ios.vendored_frameworks = [
